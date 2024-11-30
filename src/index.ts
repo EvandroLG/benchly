@@ -29,7 +29,7 @@ export default function benchmark(
   fn: FnSync | FnAsync,
   options: { iterations: number } = { iterations: 1000 },
 ) {
-  const isAsync = fn.constructor.name === 'AsyncFunction';
+  const isAsync = fn() instanceof Promise;
   const { iterations } = options;
 
   if (isAsync) {
