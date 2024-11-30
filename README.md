@@ -1,13 +1,13 @@
-# Benchly &middot; [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
+# benchly &middot; [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
 
 A lightweight benchmarking library for measuring the performance of synchronous and asynchronous functions in JavaScript and TypeScript.
 
 ## Installation
 
 ```bash
-npm install benchly
+npm install benchly --save-dev
 // or
-yarn add benchly
+yarn add benchly --dev
 ```
 
 ## Usage
@@ -45,7 +45,6 @@ const asyncFunction = async () => {
 ### Parameters
 
 - `fn`: The function to benchmark.
-- `options` (optional): The options for the benchmark.
 - `options.iterations` (optional): The number of iterations to run the benchmark. Default: `100`.
 
 ### Returns
