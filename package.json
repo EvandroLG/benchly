@@ -1,8 +1,8 @@
 {
-  "name": "benchmark",
+  "name": "benchly",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A lightweight benchmarking library for synchronous and asynchronous functions.",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
@@ -10,11 +10,18 @@
     "format": "prettier --write \"src/**/*.{ts,js,json}\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "benchmark",
+    "performance",
+    "synchronous",
+    "asynchronous",
+    "typescript"
+  ],
+  "author": "Evandro Leopoldino Gonçalves",
+  "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.16.0",
     "@types/jest": "^29.5.14",
