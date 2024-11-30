@@ -1,6 +1,6 @@
-import { benchmarkAsync } from './benchmarkAsync';
-import { benchmarkSync } from './benchmarkSync';
-import { FnAsync, FnSync } from './types';
+import { benchmarkAsync } from './benchmarkAsync.js';
+import { benchmarkSync } from './benchmarkSync.js';
+import { FnAsync, FnSync } from './types.js';
 
 /**
  * Benchmarks a given synchronous or asynchronous function by measuring

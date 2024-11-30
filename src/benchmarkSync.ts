@@ -1,4 +1,4 @@
-import { FnSync } from './types';
+import { FnSync } from './types.js';
 
 /**
  * Benchmarks a synchronous function by measuring the average time

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A lightweight benchmarking library for synchronous and asynchronous functions.",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",

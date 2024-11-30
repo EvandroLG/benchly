@@ -1,4 +1,4 @@
-import { FnAsync } from './types';
+import { FnAsync } from './types.js';
 
 /**
  * Benchmarks an asynchronous function by measuring the average time

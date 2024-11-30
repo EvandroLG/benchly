@@ -1,4 +1,4 @@
-import benchmark from '../';
+import benchmark from '../index';
 import { benchmarkSync } from '../benchmarkSync';
 import { benchmarkAsync } from '../benchmarkAsync';
 
