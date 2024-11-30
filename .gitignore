@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+dist/
+
+# Jest
+jest.*
+.jest/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
